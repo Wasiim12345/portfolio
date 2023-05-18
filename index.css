@@ -1,25 +1,45 @@
+/* Media Query for Mobile Devices
+@media (max-width: 480px) {
+	body {
+		background-color: red;
+	}
+} */
+
+/* Media Query for low resolution  Tablets, Ipads
+ @media (min-width: 481px) and (max-width: 767px) {
+	body {
+		background-color: blue;
+	}
+} */
+
+
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	/* overflow-wrap: break-word; */
 }
-body{
+
+body {
 	background-color: #73b4e742;
 }
 
 /* NAVIGARION CSS STARTS HERE */
 header {
 	position: sticky;
-    top: 0px;
+	top: 0px;
 	background-color: #151526;
 }
+
 .nav-bar {
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
-	
+
 }
+
 .nav-bar .left-part a {
 	text-decoration: none;
 	font-family: 'Sacramento', cursive;
@@ -27,45 +47,51 @@ header {
 	letter-spacing: 1px;
 	color: #fff;
 }
-.nav-bar .right-part a{
+
+.nav-bar .right-part a {
 	text-decoration: none;
-    margin: 15px;
+	margin: 15px;
 	padding-right: 25px;
-    color: #fff;
+	color: #fff;
 	justify-content: flex-start;
 	align-items: center;
 	font-size: x-large;
 
 }
+
 #user-image {
 	width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 30px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 30px;
 	display: flex;
 }
+
 /* NAVIGARION CSS ENDS HERE */
 
 /* RESUME SECTION CSS STARTS HERE */
 .resume-container {
 	position: fixed;
-    z-index: 100;
-    bottom: 60px;
-    right: 20px;
-    background: #59a9d7b4;
-    font-family: 'Poiret One', cursive;
-    padding: 25px;
-    /* animation: resume-anim 1s ease 0s infinite reverse both; */
+	z-index: 100;
+	bottom: 60px;
+	right: 20px;
+	background: #59a9d7b4;
+	font-family: 'Poiret One', cursive;
+	padding: 25px;
+	/* animation: resume-anim 1s ease 0s infinite reverse both; */
 }
-.resume-container a{
+
+.resume-container a {
 	text-decoration: none;
 	color: #0e0d0d;
-    font-weight: 600;
+	font-weight: 600;
 }
-#download-btn{
+
+#download-btn {
 	font-size: 25px;
 	margin-left: 5px;
 }
+
 /* RESUME SECTION CSS ENDS HERE */
 
 
@@ -78,11 +104,13 @@ header {
 	/* background-color: #abc5bb75; */
 	font-size: 30px;
 }
-.profile h1{
+
+.profile h1 {
 	font-family: 'Poiret One', cursive;
 	font-size: 50px;
 	color: #e5a530;
 }
+
 /* BODY SECTION CSS ENDS HERE */
 
 /* ABOUT SECTION CSS STARTS HERE */
@@ -94,6 +122,7 @@ header {
 	background-color: #e5a530;
 	color: #fff;
 }
+
 .about-section .image-section {
 	margin: 20px;
 	margin-top: 0%;
@@ -101,53 +130,65 @@ header {
 	height: 50px; */
 
 }
+
 .about-section .table-section table {
 	font-size: 25px;
 }
-.about-section .table-section table tr{
+
+.about-section .table-section table tr {
 	margin: 10px;
 }
-.about-section .table-section table tr td a{
+
+.about-section .table-section table tr td a {
 	text-decoration: none;
 	color: #fff;
 	cursor: pointer;
 }
+
 .about-section .table-section .media-icon {
 	font-size: 30px;
 	margin: 20px;
 }
-#linkedin{
+
+#linkedin {
 	color: blue;
 }
+
 #github {
 	color: black;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 /* ABOUT SECTION CSS ENDS HERE */
 
 /* SKILLS PART CSS STARTS HERE */
 .skills {
 	margin: 4% 11% 5%;
-    width: 700px;
+	width: 700px;
 }
+
 .skill-title {
 	color: #e5a530;
 	font-size: 40px;
 	font-weight: 900;
 	margin-bottom: 5%;
 }
+
 .skill-show {
 	background-color: #da680b;
 }
+
 .tech-name {
 	font-size: 22px;
 	font-family: 'Lobster', cursive;
 	color: #9f9494;
 }
+
 .skill-name {
 	margin-bottom: 30px;
 }
+
 .tech-skill {
 	height: 30px;
 	display: flex;
@@ -155,10 +196,11 @@ header {
 	margin-bottom: 5px;
 	border-radius: 5px;
 }
+
 .skills-per {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* SKILLS PART CSS ENDS HERE */
@@ -170,85 +212,101 @@ header {
 	margin: 0% 10%;
 	display: flex;
 }
+
 .project-para {
 	color: #e5a530;
 	font-size: 30px;
 	margin: 0 11% 2%;
 }
+
 .projects .project {
 	width: calc(33% - 30px);
 	border: 1px solid #dbdbdb;
 	margin: 0 15px 30px;
 
 }
+
 .projects .project .project-img {
 	height: 160px;
 	background-size: contain;
 	background-position: center;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
+
 .projects .project p {
 	font-weight: 600;
 }
+
 .projects .project img {
 	width: 100%;
-	display: block;	
+	display: block;
 	height: 150px;
 }
+
 .projects .project .content {
 	border-top: 1px solid #dbdbdb;
 	background: white;
-	padding: 20px;	
+	padding: 20px;
 }
+
 .projects .project .content .icons {
 	display: flex;
 }
+
 .projects .project .content img {
 	margin: 10px 20px -5px 50px;
 	width: 20px;
 	height: inherit;
-	
+
 }
+
 /* PROJECTS PART CSS ENDS HERE */
 
 /* CONTACT PART STARTS HERE */
 .social-media {
 	margin: 0 30% 0 11%;
 }
-.social-title{
+
+.social-title {
 	color: #e5a530;
 	font-size: 40px;
 	font-weight: 900;
 	margin-bottom: 20px;
 }
+
 .social-link {
 	display: flex;
-	/* align-items: center; */
 	justify-content: space-between;
 
 }
-.social-items{
+
+.social-items {
 	width: 150px;
-    border-radius: 10px;
+	border-radius: 10px;
 	text-align: center;
 }
+
 .linkedin {
-    background: #0a66c2;
+	background: #0a66c2;
 }
+
 .github {
 	margin-left: 5%;
-    background: #22272e;
+	background: #22272e;
 }
+
 .gmail {
 	margin-left: 5%;
 	background: #da680b;
 }
-.social-link a{
+
+.social-link a {
 	text-decoration: none;
-    color: #fff;
-    font-weight: 600;
+	color: #fff;
+	font-weight: 600;
 	font-size: 30px;
 }
+
 /* CONTACT PART ENDS HERE */
 
 
@@ -261,12 +319,55 @@ header {
 	background-color: #000000de;
 	color: white;
 }
-.footer .footer-content{
+
+.footer .footer-content {
 	margin-top: 20px;
 }
-.footer .footer-content a{
+
+.footer .footer-content a {
 	text-decoration: none;
 	margin: 15px;
 	color: white;
 }
+
 /* FOOTER PART CSS ENDS HERE */
+
+/* MEDIA QUERY FOR RESPONSIVENESS */
+
+/* Media Query for Tablets/Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.project-para {
+		margin: 0 9% 1%;
+	}
+
+	.projects {
+		margin: 0% 7%;
+	}
+
+	.projects .project img {
+		height: 100px;
+	}
+
+	.projects .project {
+		width: calc(50% - 30px);
+	}
+
+	.social-media {
+		margin: 0 10% 0 9%;
+	}
+
+	.skills {
+		margin: 3% 10% 4%;
+		width: 600px;
+	}
+
+	.tech-name {
+		font-size: 20px;
+	}
+
+	.skill-title {
+		font-size: 40px;
+		font-weight: 600;
+		margin-bottom: 2%;
+	}
+}

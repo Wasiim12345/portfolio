@@ -84,6 +84,10 @@ const skills = [
         percentage: 80
     },
     {
+        name: 'MySQL',
+        percentage: 90
+    },
+    {
         name: 'Bootstrap',
         percentage: 100
     }
