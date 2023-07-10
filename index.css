@@ -78,7 +78,6 @@ header {
 	background: #59a9d7b4;
 	font-family: 'Poiret One', cursive;
 	padding: 25px;
-	/* animation: resume-anim 1s ease 0s infinite reverse both; */
 }
 
 .resume-container a {
@@ -99,9 +98,8 @@ header {
 .profile {
 	text-align: center;
 	height: 70vh;
-	padding: 9%;
+	padding: 10%;
 	width: 100%;
-	/* background-color: #abc5bb75; */
 	font-size: 30px;
 }
 
@@ -126,9 +124,6 @@ header {
 .about-section .image-section {
 	margin: 20px;
 	margin-top: 0%;
-	/* width: 50px;
-	height: 50px; */
-
 }
 
 .about-section .table-section table {
@@ -170,7 +165,7 @@ header {
 
 .skill-title {
 	color: #e5a530;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 900;
 	margin-bottom: 5%;
 }
@@ -186,7 +181,7 @@ header {
 }
 
 .skill-name {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .tech-skill {
@@ -213,10 +208,11 @@ header {
 	display: flex;
 }
 
-.project-para {
+.project-para h2{
 	color: #e5a530;
 	font-size: 30px;
 	margin: 0 11% 2%;
+	font-weight: 900;
 }
 
 .projects .project {
@@ -263,16 +259,29 @@ header {
 /* PROJECTS PART CSS ENDS HERE */
 
 /* CONTACT PART STARTS HERE */
+.social-title {
+	color: #e5a530;
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
 .social-media {
 	margin: 0 30% 0 11%;
 }
 
-.social-title {
-	color: #e5a530;
-	font-size: 40px;
-	font-weight: 900;
-	margin-bottom: 20px;
-}
+/* .btn [type="submit"] {
+    background-color: #3b8ee0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+} */
+/* .btn [type="submit"]:hover {
+    background-color: #0558ab;
+} */
 
 .social-link {
 	display: flex;
@@ -336,42 +345,39 @@ header {
 
 /* Media Query for Tablets/Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-	
-	.project-para {
-		margin: 0 9% 1%;
+	.profile {
+		height: 50vh;
+		padding: 10%;
 	}
-
+	.project-para {
+		margin: 0% -2%;
+	}
 	.nav-item{
 		display: none;
 	}
+	.about-section .table-section table {
+		font-size: 22px;
+	}	
 	.projects {
 		margin: 0% 7%;
 	}
-
 	.projects .project img {
 		height: 100px;
 	}
-
 	.projects .project {
 		width: calc(50% - 30px);
 	}
-
 	.social-media {
 		margin: 0 10% 0 9%;
 	}
-
 	.skills {
 		margin: 3% 10% 4%;
 		width: 600px;
 	}
-
 	.tech-name {
 		font-size: 20px;
 	}
-
 	.skill-title {
-		font-size: 40px;
-		font-weight: 600;
 		margin-bottom: 2%;
 	}
 }

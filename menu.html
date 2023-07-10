@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins";
+            box-sizing: border-box;
+        }
+        body{
+            background-color: darkslateblue;
+        }
+        .wrapper{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .container{
+            float: right;
+            height: 25px;
+            width: 40px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .menulogo{
+            height: 3px;
+            width: 30px;
+            background-color: snow;
+        }
+        .menu{
+            background-color: deeppink;
+            width: 50%;
+            height: 100vh;
+            background-color: slateblue;
+            padding: 50px;
+            transform: translate(-500px);
+            transition: 0.5s;
+        }
+        .menu li{
+            list-style-type: none;
+            border-bottom: 1px solid blue;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .showmenu {
+            transform: translate(0);
+        }
+        .menu li:last-child{
+            border-bottom: none;
+        }
+        .menu li:first-child{
+            font-weight: bold;
+        }
+        .menu li a {
+            color: snow;
+            text-decoration: none;
+            font-size: 20px;
+            transition: font-weight 0.2s;
+        }
+        .menu li a:hover{
+            font-weight: bold;
+        }
+        @media  screen and (min-width:600px) {
+            .menu {
+                width: 500px;
+            }
+            @media screen and (max-width: 600px) {
+                .menu li a {
+                    font-size: 16px;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="menulogo"></div>
+            <div class="menulogo"></div>
+            <div class="menulogo"></div>
+        </div>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    
+    <script>
+        var logo = document.querySelector('.container');
+        var menu = document.querySelector('.menu');
+
+        logo.addEventListener('click', function(){
+            menu.classList.toggle('showmenu');
+        });
+    </script>
+</body>
+</html>
