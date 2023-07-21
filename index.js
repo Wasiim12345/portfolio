@@ -1,3 +1,15 @@
+// FOR THE HAMBURGER MENU
+const btn = document.getElementById('btn');
+        const nav = document.getElementById('nav');
+
+        btn.addEventListener('click', () => {
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
+            } else {
+                nav.classList.add('active');
+            }
+        })
+
 // FOOTER PART FOR ACCURATE DATE
 const year = document.getElementById('year');
 year.innerHTML = new Date().toDateString();
@@ -7,12 +19,6 @@ const projectElement = document.getElementById('total-project');
 
 const project = [
     // HTML-CSS PROJECT STARTS HERE
-    {
-        name: 'Food Web using HTML-CSS',
-        image: 'foods-web.png',
-        githubURL: 'https://github.com/Wasiim12345/1st-Assignment-EdYoda/blob/main/assignment1.html',
-        liveURL: 'https://wasiim12345.github.io/1st-Assignment-EdYoda/assignment1.html'
-    },
     {
         name: 'Edyoda Stories',
         image: 'edyoda-stories.png',
