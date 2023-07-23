@@ -1,14 +1,15 @@
 // FOR THE HAMBURGER MENU
 const btn = document.getElementById('btn');
-        const nav = document.getElementById('nav');
+const nav = document.getElementById('nav');
 
-        btn.addEventListener('click', () => {
-            if (nav.classList.contains('active')) {
-                nav.classList.remove('active');
-            } else {
-                nav.classList.add('active');
-            }
-        })
+btn.addEventListener('click', () => {
+    if (nav.classList.contains('active')) {
+        nav.classList.remove('active');
+    } else {
+        nav.classList.add('active');
+    }
+});
+
 
 // FOOTER PART FOR ACCURATE DATE
 const year = document.getElementById('year');
@@ -36,7 +37,7 @@ const project = [
         image: 'html-css-project.png',
         githubURL: 'https://github.com/Wasiim12345/nuuk-project/blob/main/index.html',
         liveURL: 'https://wasiim12345.github.io/nuuk-project/'
-    }, 
+    },
     // HTML-CSS PROJECTS ENDS HERE
 
     // JAVASCRIPT PROJECTS STARTS HERE
@@ -116,7 +117,7 @@ const skills = [
 
 // JAVASCRIPT CODE FOR PROJECT SECTION TO CALL DYNAMIC
 let output = '';
-for (let i = 0; i < project.length; i++) { 
+for (let i = 0; i < project.length; i++) {
     output += `
     <div class="project">
         <img src="images/${project[i].image}" alt="Food Web using HTML/CSS">
@@ -133,7 +134,7 @@ for (let i = 0; i < project.length; i++) {
 // SKILLS STRING LITERAL PART STARTS HERE
 let result = '';
 let skillRemaining;
-for(let i = 0; i < skills.length; i++) {
+for (let i = 0; i < skills.length; i++) {
     skillRemaining = 100 - skills[i].percentage;
     result += `
     <div class="skill-name">
