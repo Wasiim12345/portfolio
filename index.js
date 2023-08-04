@@ -78,10 +78,6 @@ const skills = [
         name: 'HTML5 / CSS3',
         percentage: 95
     },
-    // {
-    //     name: 'CSS3',
-    //     percentage: 95
-    // },
     {
         name: 'JavaScript',
         percentage: 90
@@ -92,7 +88,7 @@ const skills = [
     },
     {
         name: 'React.js',
-        percentage: 80
+        percentage: 85
     },
     {
         name: 'MySQL',
