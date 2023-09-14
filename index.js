@@ -64,6 +64,12 @@ const project = [
         image: 'events-js.png',
         githubURL: 'https://github.com/Wasiim12345/javascript-event/blob/main/index.html',
         liveURL: 'https://wasiim12345.github.io/javascript-event/'
+    },
+    {
+        name: 'E-commerce project using JavaScript',
+        image: 'shoplane.png',
+        githubURL: 'https://github.com/Wasiim12345/shoplane-project',
+        liveURL: 'https://wasiim12345.github.io/shoplane-project/'
     }
     // JAVASCRIPT PROJECTS ENDS HERE
 
