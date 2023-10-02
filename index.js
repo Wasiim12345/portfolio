@@ -21,12 +21,6 @@ const projectElement = document.getElementById('total-project');
 const project = [
     // HTML-CSS PROJECT STARTS HERE
     {
-        name: 'Edyoda Stories',
-        image: 'edyoda-stories.png',
-        githubURL: 'https://github.com/Wasiim12345/assignment-edyoda-stories/blob/main/assignment2.html',
-        liveURL: 'https://wasiim12345.github.io/assignment-edyoda-stories/assignment2.html'
-    },
-    {
         name: 'Stunning Landing Page',
         image: 'stunning-landing-page.png',
         githubURL: 'https://github.com/Wasiim12345/assignment-landing-webpage/blob/main/index.html',
@@ -70,8 +64,17 @@ const project = [
         image: 'shoplane.png',
         githubURL: 'https://github.com/Wasiim12345/shoplane-project',
         liveURL: 'https://wasiim12345.github.io/shoplane-project/'
-    }
+    },
     // JAVASCRIPT PROJECTS ENDS HERE
+
+    // REACT.JS PROJECTS STARTS HERE
+    {
+        name: 'Weather Application using React.js',
+        image: 'weather.png',
+        githubURL: 'https://github.com/Wasiim12345/weather_app',
+        liveURL: 'https://wasiim12345.github.io/weather_app/'
+    }
+    // REACT.JS PROJECTS ENDS HERE
 
 ]
 // OBJECT ENDS FOR THE PROJECT SECTION
