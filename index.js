@@ -85,19 +85,19 @@ const skillsElement = document.getElementById('skill');
 const skills = [
     {
         name: 'HTML5 / CSS3',
-        percentage: 95
-    },
-    {
-        name: 'JavaScript',
         percentage: 90
     },
     {
+        name: 'JavaScript',
+        percentage: 85
+    },
+    {
         name: 'Bootstrap',
-        percentage: 100
+        percentage: 95
     },
     {
         name: 'React.js',
-        percentage: 85
+        percentage: 80
     },
     {
         name: 'MySQL',
@@ -109,11 +109,11 @@ const skills = [
     },
     {
         name: 'Express.js',
-        percentage: 85
+        percentage: 80
     },
     {
         name: 'Node.js',
-        percentage: 90
+        percentage: 80
     }
 
 ]
