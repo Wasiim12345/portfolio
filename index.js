@@ -18,7 +18,7 @@ year.innerHTML = new Date().toDateString();
 // TYPEWRITER CODES START FROM HERE
 var typeWriterElement = document.getElementById('typewriter');
 
-var textArray = ["a human being", "A Software Engineer", "Coder & writes beautiful codes"];
+var textArray = ["a human being", "A Full Stack MERN Developer", "Coder & writes beautiful codes"];
 
 function delWriter(text, i, cb) {
     if (i >= 0) {
